@@ -1,0 +1,66 @@
+body{background-color: rgb(197, 240, 162);}
+
+
+.titleprincipal{
+    color: rgb(39, 12, 139);
+}
+
+.title{font-size: 2em;
+}
+
+#titulo{font-size: 4em;}
+
+.logotitulo{
+
+    width: 500px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+  
+}
+
+
+.tarjeta{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 2% 0px 2em;
+    border-radius: 5%;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+}
+
+.tarjeta:hover{
+    background-color: aqua;
+}
+
+
+#membrete{
+    border: 2px solid rgb(75, 7, 231);
+    width: 60vw;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tarjeta-container{
+    background-color: rgb(198, 250, 241);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(44, 206, 11);
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+    
